@@ -11,7 +11,26 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/assets/css/bootstrap.min.css' },
+      { rel: 'stylesheet', href: '/assets/css/aos.css' },
+      { rel: 'stylesheet', href: '/assets/css/animate.min.css' },
+      { rel: 'stylesheet', href: '/assets/css/meanmenu.css' },
+      { rel: 'stylesheet', href: '/assets/css/remixicon.css' },
+      { rel: 'stylesheet', href: '/assets/css/odometer.min.css' },
+      { rel: 'stylesheet', href: '/assets/css/fancybox.min.css' },
+      { rel: 'stylesheet', href: '/assets/css/style.css' },
+      { rel: 'stylesheet', href: '/assets/css/fostyleoter.css' },
+      { rel: 'stylesheet', href: '/assets/css/navbar.css' },
+      { rel: 'stylesheet', href: '/assets/css/footer.css' },
+      { rel: 'stylesheet', href: '/assets/css/responsive.css' },
+    ],
+    script: [
+      { src: '/assets/js/bootstrap.bundle.min.js' },
+      { src: '/assets/js/wow.min.js' },
+      { src: '/assets/js/aos.js' },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
